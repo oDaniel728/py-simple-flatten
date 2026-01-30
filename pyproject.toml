@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lflatten"
+version = "0.1.0"
+description = "Literal flatten(or unflatten) for data structures"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Daniel", email = "danielmenezes0822@gmail.com" }
+]
+keywords = ["python", "lib", "flatten", "lflatten", "unflatten", "compress"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License"
+]
+
+[project.urls]
+Homepage = "https://github.com/oDaniel728/py-simple-flatten"
+Repository = "https://github.com/oDaniel728/py-simple-flatten"
