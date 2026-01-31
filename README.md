@@ -1,4 +1,4 @@
-# py-simple-flatten
+# `lflatten`
 
 Biblioteca Python **simples, tipada e reversível** para **flatten** e **unflatten** de estruturas aninhadas (`dict` e `list`).
 
@@ -29,6 +29,8 @@ pip install lflatten
 ---
 
 ## Uso básico
+
+> [Documentação](docs/index.md)
 
 ### Flatten
 
@@ -155,7 +157,7 @@ Resultado:
 
 ---
 
-## ignore_none
+## `ignore_none`
 
 Ignora valores `None` durante o flatten:
 

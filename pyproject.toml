@@ -18,6 +18,12 @@ classifiers = [
   "License :: OSI Approved :: MIT License"
 ]
 
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
 [project.urls]
-Homepage = "https://github.com/oDaniel728/py-simple-flatten"
-Repository = "https://github.com/oDaniel728/py-simple-flatten"
+Homepage = "https://github.com/oDaniel728/lflatten"
+Repository = "https://github.com/oDaniel728/lflatten"
